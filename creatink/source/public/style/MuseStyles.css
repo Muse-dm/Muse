@@ -1,0 +1,38 @@
+/* .dark-overlay {
+     position: relative; 
+    height: 50%;
+} */
+
+.image-holder {
+    position: absolute; 
+    top: 0px; left: 0px; 
+    z-index: 0; 
+    width: 100%; height: 100%; 
+    visibility: inherit; 
+    opacity: 1; 
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+
+.dark-overlay-home {
+    background-repeat: no-repeat;   
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    visibility: inherit;
+    z-index: 20;
+}
+
+.hard {
+    filter: brightness(50%);
+}
+
+.subtle {
+    filter: brightness(80%);
+}
+
+.fancyBreak {
+    color: blue;
+}
